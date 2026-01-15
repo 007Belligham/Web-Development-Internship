@@ -1,0 +1,59 @@
+/* Default Spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+.container {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #1e40af;
+}
+
+/*.... RESPONSIVENESS .........*/
+
+/* PHONES AND TABLET SCREEN */
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+/* DESKTOP SCREEN */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 700px;
+  }
+}
